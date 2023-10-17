@@ -8,7 +8,7 @@ class calculator {
 
         Scanner input = new Scanner(System.in);
 
-        Sy1stem.out.println("Choose an operator: +, -, *, or /");
+        System.out.println("Choose an operator: +, -, *, or /");
         operator = input.next().charAt(0);
 
         System.out.println("Enter first number");
